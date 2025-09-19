@@ -32,6 +32,7 @@ const navigationItems: NavigationItem[] = [
   { id: "campaign-view", name: "Campaign View", icon: Target, href: "/campaign-view" },
   { id: "demographic-view", name: "Demographic View", icon: Users, href: "/demographic-view" },
   { id: "weekly-view", name: "Weekly View", icon: Calendar, href: "/weekly-view" },
+  { id: "device-view", name: "Device View", icon: BarChart3, href: "/device-view" },
   { id: "region-view", name: "Region View", icon: MapPin, href: "/region-view" },
 ];
 
@@ -256,3 +257,5 @@ export function Navbar({ className = "" }: NavbarProps) {
     </>
   );
 }
+
+
